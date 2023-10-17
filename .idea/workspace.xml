@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="970caa78-2272-40e2-8ca7-bc029c5535af" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/applications/github/api/github_api" beforeDir="false" afterPath="$PROJECT_DIR$/src/github/api/github_api" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/applications/github/ui/github_ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/github/ui/github_ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/config/config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/helpers/helper" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/helpers/helper" afterDir="false" />
-    </list>
+    <list default="true" id="970caa78-2272-40e2-8ca7-bc029c5535af" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
