@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="970caa78-2272-40e2-8ca7-bc029c5535af" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/applications/github/api/github_api" beforeDir="false" afterPath="$PROJECT_DIR$/src/github/api/github_api" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/applications/github/ui/github_ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/github/ui/github_ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/config/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/helpers/helper" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java/helpers/helper" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Wsv3Kits4IJ4JWvYmhsy3x41Zd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/jitka.czippelova/testRepoAQA/BecomeAQA",
+    "onboarding.tips.debug.path": "C:/Users/jitka.czippelova/testRepoAQA/BecomeAQA/src1/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jitka.czippelova\testRepoAQA\BecomeAQA\src\main.java" />
+      <recent name="C:\Users\jitka.czippelova\testRepoAQA\BecomeAQA\tests\github" />
+      <recent name="C:\Users\jitka.czippelova\testRepoAQA\BecomeAQA\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="970caa78-2272-40e2-8ca7-bc029c5535af" name="Changes" comment="" />
+      <created>1697533901448</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697533901448</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src1/src/Main.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

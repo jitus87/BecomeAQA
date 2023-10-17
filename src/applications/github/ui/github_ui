@@ -1,4 +1,0 @@
-public class GitHubUI {
-// Current class contains every UI usage call we use in tests (pageobjects)
-static String a;
-}
