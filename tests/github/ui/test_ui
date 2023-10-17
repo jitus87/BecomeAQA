@@ -1,0 +1,4 @@
+public class test_api {
+// Current class contains TC of UI
+static String a;
+}

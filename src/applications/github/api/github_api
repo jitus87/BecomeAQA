@@ -1,0 +1,4 @@
+public class GitHubAPI {
+// Current class contains every API call we use in tests
+static String a;
+}
