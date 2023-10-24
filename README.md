@@ -4,8 +4,12 @@ This  framework is designed in order to perform tests for GitHub using UI and AP
 
 # Framework structure
 ## SRC - source files
-### config module
+### resource is config module
 all configurations, config values are stored in config file
+
+## jitka.becomeqa reader module
+package for running (read) from config files
+it' s not a test but a program so it' s stored in sources not tests
 
 ### application module
 Application specific components
