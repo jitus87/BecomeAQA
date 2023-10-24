@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="970caa78-2272-40e2-8ca7-bc029c5535af" name="Changes" comment="" />
+    <list default="true" id="970caa78-2272-40e2-8ca7-bc029c5535af" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jitka/becomeqa/ConfigReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/config.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/helpers/helper" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/helper" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/github/api/test_api.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,31 +29,131 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="f37970ea-6aa6-4ba4-8e28-da5541746e8b" />
+        <option name="url" value="git@github.com:jitus87/BecomeAQA.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2Wsv3Kits4IJ4JWvYmhsy3x41Zd" />
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "full.screen.before.presentation.mode": "false",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/jitka.czippelova/testRepoAQA/BecomeAQA",
+    "last_opened_file_path": "C:/Users/jitka.czippelova/Downloads",
     "onboarding.tips.debug.path": "C:/Users/jitka.czippelova/testRepoAQA/BecomeAQA/src1/src/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.scopes"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jitka.czippelova\testRepoAQA\BecomeAQA\src\main\java\jitka\becomeqa" />
+      <recent name="C:\Users\jitka.czippelova\testRepoAQA\BecomeAQA\src\main\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jitka.czippelova\testRepoAQA\BecomeAQA\src\main\resources" />
+      <recent name="C:\Users\jitka.czippelova\testRepoAQA\BecomeAQA\src\main" />
       <recent name="C:\Users\jitka.czippelova\testRepoAQA\BecomeAQA\src\main.java" />
       <recent name="C:\Users\jitka.czippelova\testRepoAQA\BecomeAQA\tests\github" />
       <recent name="C:\Users\jitka.czippelova\testRepoAQA\BecomeAQA\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="jitka.becomeqa" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.jitka.becomeqa.ConfigReader">
+    <configuration name="ConfigReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConfigReader" />
+      <module name="sk.jitka" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jitka.becomeqa.ConfigReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jitka.becomeqa.ConfigReader" />
+      <module name="sk.jitka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jitka.becomeqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jitka.becomeqa.ConfigReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jitka.becomeqa.ConfigReader" />
+      <module name="sk.jitka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jitka.becomeqa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jitka.becomeqa.component.ConfigReader" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jitka.becomeqa.component.ConfigReader" />
+      <module name="sk.jitka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jitka.becomeqa.component.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="BecomeAQA" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="BecomeAQA" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.jitka.becomeqa.ConfigReader" />
+        <item itemvalue="Application.jitka.becomeqa.ConfigReader" />
+        <item itemvalue="Application.ConfigReader" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -78,5 +187,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
