@@ -2,22 +2,32 @@ package jitka.becomeqa;
 
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.Properties;
 public class ConfigReader {
+    static Properties config = new Properties();
 
-    public static void main(String[] args) {
+    static {
 
-
-        // Load configuration file
-        Properties config = new Properties();
         try {
             FileInputStream configFile = new FileInputStream("target/classes/config.properties");
             config.load(configFile);
             configFile.close();
         } catch (IOException e) {
-            e.printStackTrace();
-            return;
+            //  e.printStackTrace();
+            throw new RuntimeException();
         }
+    }
+    public static String REQUEST_TIMEOUT = config.getProperty("db.request-timeout");
+    public static String USERNAME = config.getProperty("db.username");
+    public static String ENV = config.getProperty("db.env");
+
+    public static String OS_ENV = System.getProperty("os.name");
+
+/*
+    public static void main(String[] args) {
+
+
 
         // Take the variable values from file
         String dbTimeout= config.getProperty("db.request-timeout");
@@ -27,8 +37,7 @@ public class ConfigReader {
         System.out.println("Database Timeout: " + dbTimeout);
         System.out.println("Database Username: " + dbUsername);
         System.out.println("Database Environment: " + dbEnv);
-
-
     }
-
+*/
 }
+
