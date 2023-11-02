@@ -1,4 +1,4 @@
-package jitka.becomeqa;
+package config;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -21,8 +21,8 @@ public class ConfigReader {
     public static String REQUEST_TIMEOUT = config.getProperty("db.request-timeout");
     public static String USERNAME = config.getProperty("db.username");
     public static String ENV = config.getProperty("db.env");
-
     public static String OS_ENV = System.getProperty("os.name");
+    public static String URL = config.getProperty("github_base_url");
 
 /*
     public static void main(String[] args) {
