@@ -4,26 +4,37 @@ This  framework is designed in order to perform tests for GitHub using UI and AP
 
 # Framework structure
 ## SRC - source files
-### resource is config module
-all configurations, config values are stored in config file
 
-## jitka.becomeqa reader module
-package for running (read) from config files
-it' s not a test but a program so it' s stored in sources not tests
 
-### application module
+### main/java is application module
 Application specific components
 Different for 
 - UI (page locators, page actions, test data object generators)
-- API (service APIs, service actions, Test data object generators)
+- API_testing (service APIs, service actions, Test data object generators)
+  - GitHubAPICLient - created for API testing (https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28#search-repositories)
 
-### helpers
+#### helpers
 data providers, logger, file/time helpers, wrappers for allure, selenium
 
+#### config
+- ConfigReader to test the reading of resources
+
+### main/resources 
+is a config module where all configurations/config values are stored
+-config.properties
+
+
 ## TESTS
-### tests
-completely different place in the structure, different from source files. Testcases for 
+completely different place in the structure, different from source files.
+### tests/github
+Testcases for 
 - API
+    - HTTPrequests
+      - BasicAPITest - the basic set of tests
+      - BeforeAfterClasses - same parts of code that will be called in each test of BasicAPITest
+      - Verify - verify method for total-numbers
+    - TestConfigValues - test to read the values from resources
+
 - UI
 
 are stored here
