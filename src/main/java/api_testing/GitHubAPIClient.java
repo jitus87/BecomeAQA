@@ -10,6 +10,7 @@ import io.restassured.specification.RequestSpecification;
 public class GitHubAPIClient {
     protected final String SEARCH_REPOSITORIES_URI = "/search/repositories";
     protected final String SEARCH_COMMITS_URI = "/search/commits";
+    protected final String SEARCH_USERS_URI = "/search/users";
     private RequestSpecification requestSpec;
 
     {
@@ -46,4 +47,18 @@ public class GitHubAPIClient {
                 .extract().jsonPath();
         return response;
     }
+
+    public JsonPath searchUsers(String users) {
+        JsonPath response = RestAssured
+                .given(requestSpec)
+                .queryParam("q", users)
+                .get(SEARCH_USERS_URI)
+                .then()
+                .log().all()
+                .assertThat().statusCode(200)
+                .contentType(ContentType.JSON)
+                .extract().jsonPath();
+        return response;
+    }
+
 }
