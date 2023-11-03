@@ -1,4 +1,4 @@
-package api;
+package api_testing;
 
 import config.ConfigReader;
 import io.restassured.*;
@@ -41,7 +41,6 @@ public class GitHubAPIClient {
                 .queryParam("q", commit)
                 .get(SEARCH_COMMITS_URI)
                 .then()
-                  .log().all()
                 .assertThat().statusCode(200)
                 .contentType(ContentType.JSON)
                 .extract().jsonPath();
@@ -54,7 +53,6 @@ public class GitHubAPIClient {
                 .queryParam("q", users)
                 .get(SEARCH_USERS_URI)
                 .then()
-                .log().all()
                 .assertThat().statusCode(200)
                 .contentType(ContentType.JSON)
                 .extract().jsonPath();
