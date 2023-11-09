@@ -9,7 +9,7 @@ This  framework is designed in order to perform tests for GitHub using UI and AP
 ### main/java is application module
 Application specific components
 Different for 
-- UI (page locators, page actions, test data object generators)
+- UI_testing (page locators, page actions, test data object generators e.g. LoginPagePOM)
 - API_testing (service APIs, service actions, Test data object generators)
   - GitHubAPICLient - created for API testing (https://docs.github.com/en/rest/search/search?apiVersion=2022-11-28#search-repositories)
 
@@ -36,6 +36,9 @@ Testcases for
     - TestConfigValues - test to read the values from resources
 
 - UI
+  - BasicUITest - Basic test contains @BeforeTest, @AfterTest methods
+  - TestSeleniumGitHubLoginPage - test without using POM
+  - TestSeleniumGitHubLoginPageWithPOM - same tests as above but with POM used
 
 are stored here
 

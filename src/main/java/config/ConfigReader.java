@@ -24,6 +24,10 @@ public class ConfigReader {
     public static String OS_ENV = System.getProperty("os.name");
     public static String URL = config.getProperty("github_base_url");
 
+    public static String LOGINNAME = config.getProperty("loginName");
+
+    public static String PASSWORD = config.getProperty("loginPassword");
+
 /*
     public static void main(String[] args) {
 

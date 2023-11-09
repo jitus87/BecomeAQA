@@ -1,10 +1,11 @@
 package github.api.HTTPrequests;
 import api_testing.GitHubAPIClient;
-import org.junit.jupiter.api.BeforeEach;
+import org.testng.annotations.BeforeTest;
+
 
 public class BeforeAfterClasses {
     protected GitHubAPIClient client;
-    @BeforeEach
+    @BeforeTest
     public void setUp(){
         client = new GitHubAPIClient();
     }

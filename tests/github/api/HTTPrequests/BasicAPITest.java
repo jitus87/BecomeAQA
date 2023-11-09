@@ -2,7 +2,7 @@ package github.api.HTTPrequests;
 
 import api_testing.GitHubAPIClient;
 import io.restassured.path.json.JsonPath;
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.Test;
 
 
 public class BasicAPITest extends BeforeAfterClasses {
