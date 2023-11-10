@@ -18,6 +18,8 @@ public class LoginPagePOM {
     String expectedValidationMessage = "Incorrect username or password.";
 
 
+
+
     // Constructor to initialize the WebDriver
     public LoginPagePOM(WebDriver driver){
         this.driver=driver;
@@ -41,12 +43,21 @@ public class LoginPagePOM {
 
     public void assertErrorMessage (){
         String actualErrorMessage = driver.findElement(errorMessageSelector).getText();
-        Assert.assertEquals(actualErrorMessage,expectedValidationMessage);
+        Assert.assertEquals(actualErrorMessage, expectedValidationMessage);
     }
 
     public void assertCorrectLogin(){
         driver.findElement(avatar);
         Assert.assertEquals(true,avatar);
+    }
+
+    public void tryToLogin(String username, String password){
+        LoginPagePOM loginPagePOM = new LoginPagePOM(driver);
+        loginPagePOM.openLoginGITHUBpage();
+
+        loginPagePOM.enterUserName(username);
+        loginPagePOM.enterPassword(password);
+        loginPagePOM.clickSubmitButton();
     }
 
 }
